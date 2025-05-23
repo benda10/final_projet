@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tourist-Guide</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="index.html"><span>Tourist</span>|Gümüş</a>
+        </div>
+        <ul class="Menu">
+            <li><a href="#">Home</a></li>
+        </ul>
+        
+    </header>
+    <!--acceuil section-->
+    <section id="Home">
+        <h2>Follow Us</h2>
+        <h4>Visit and Travel Safely</h4>
+        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit accusantium consectetur in voluptates neque.</p>
+       <p>molestiae illum eaque praesentium esse. Quos iusto.</p> 
+       <a href="#popular-destination" class="btn-reservation Home-btn">Destination</a>
+       <div class="find_trip">
+        <form action="">
+            <div>
+                <label>City</label>
+               <input type="text" placeholder="Enter a City"> 
+            </div>
+            <div>
+                <label>Place</label>
+               <input type="text" placeholder="Enter a Placde"> 
+            </div>
+            <input type="submit" value="See">
+            
+        </form>
+       </div>
+    </section>
+
+    <!--About-->
+    
+
+   <!--Destination-->
+    <section id="popular-destination">
+        <h1 class="title">popular destination</h1>
+        <div class="content">
+            <!--box-->
+            <div class="box">
+                <img src="static/images/torul.jpg" alt="image1">
+                <div class="content">
+                    <div>
+                        <h4>Torul</h4>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                        <p> Ea iusto ipsa repudiandea amet conseq.</p>
+                        <a href="{{url_for('record')}}">Reservation</a>
+                    </div>
+                </div>
+            </div>
+            <!--box-->
+             <!--box-->
+             <div class="box">
+                <img src="static/images/gümüşhane.jpg" alt="image2">
+                <div class="content">
+                    <div>
+                        <h4>Gümüşhane</h4>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                        <p> Ea iusto ipsa repudiandea amet conseq.</p>
+                        <a href="{{url_for('record')}}">Reservation</a>
+                        
+                    </div>
+                </div>
+            </div>
+            <!--box-->
+             <!--box-->
+             <div class="box">
+                <img src="static/images/limni gölü.jpg" alt="image3">
+                <div class="content">
+                    <div>
+                        <h4>Limni gölü</h4>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                        <p> Ea iusto ipsa repudiandea amet conseq.</p>
+                        <a href="{{url_for('record')}}">Reservation</a>
+                    </div>
+                </div>
+            </div>
+            <!--box-->
+              <!--box-->
+              <div class="box">
+                <img src="static/images/dağ.jpg" alt="image3">
+                <div class="content">
+                    <div>
+                        <h4>Dağ</h4>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                        <p> Ea iusto ipsa repudiandea amet conseq.</p>
+                        <a href="{{url_for('record')}}">Reservation</a>
+                    </div>
+                </div>
+            </div>
+            <!--box-->
+              <!--box-->
+              <div class="box">
+                <img src="static/images/göl.jpg" alt="image3">
+                <div class="content">
+                    <div>
+                        <h4>Göl</h4>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                        <p> Ea iusto ipsa repudiandea amet conseq.</p>
+                        <a href="{{url_for('record')}}">Reservation</a>
+                    </div>
+                </div>
+            </div>
+            <!--box-->
+            <!--contact section-->
+    <section id="Contact">
+        <h1 class="title">Contact</h1>
+       
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d24289.696436325212!2d39.46909033775522!3d40.44844333031196!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40651be0ce04d859%3A0x43d3110073f991d8!2zR8O8bcO8xZ9oYW5lLCBHw7xtw7zFn2hhbmUgTWVya2V6L0fDvG3DvMWfaGFuZQ!5e0!3m2!1sfr!2str!4v1735230354306!5m2!1sfr!2str" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>" frameborder="0"></iframe>
+               </div>
+            </div>
+        </form>
+    </section>
+
+    <footer>
+        <h3>For more information Contact</h3>
+        <p> Adı-Soyadı:<span>  Brenda Maguy Menga M obaya</span></p>
+        <p>mail:<span>brendamenga4@gmail.com</span></p>
+        </div>
+    </section>
+
+
+    <!--contact section-->
+   
+
+    
+</body>
+</html>
