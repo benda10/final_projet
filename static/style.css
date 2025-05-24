@@ -161,30 +161,6 @@ li a:hover {
     box-shadow: 0 0 10px #29d9d5;
 }
 
-/*About*/
-#About {
-    margin-top: 100px;
-    margin-bottom: 50px;
-    padding: 0 10%;
-    width: 100%;
-}
-.title {
-    text-transform: capitalize;
-    margin: 70px 0;
-    font-weight: bold;
-    color: #29d9d5;
-    position: relative;
-    margin-left: 15px;
-    font-size: 18px;
-}
-.title::after {
-    position: absolute;
-    left: -15px;
-    content: "";
-    height: 100%;
-    background-color: #fff;
-    width: 5px;
-}
 .img-desc {
     display: flex;
     align-items: center;
